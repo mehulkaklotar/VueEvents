@@ -1,0 +1,30 @@
+{
+  "name": "VueEvents",
+  "version": "1.0.0",
+  "description": "Vue Events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "js:build": "webpack",
+    "js:build:prod": "NODE_ENV=production webpack",
+    "js:watch": "webpack --watch",
+    "js:check": "./node_modules/.bin/eslint ./src/js"
+  },
+  "author": "mehulkaklotar",
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "vue": "^2.5.17"
+  }
+}
